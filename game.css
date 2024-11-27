@@ -1,0 +1,84 @@
+body {
+  background-image: url("https://files.oaiusercontent.com/file-4fCUcmF5LY7wRQZpYNCbvp?se=2024-11-27T12%3A51%3A20Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Db67b2862-c31d-4eff-a11a-8d4d8a6ad97e.webp&sig=o0zNk2V6D7SA90gd7HKgqeDduGuQAS/gPOT9MqF0XWQ%3D");
+  background-position: center;
+  background-size: auto;
+}
+
+#text {
+  background-color: #0a0a23;
+  color: #ffffff;
+  padding: 20px;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  word-spacing: 1px;
+}
+
+#game {
+  max-width: 900px;
+  max-height: 400px;
+  color: #ffffff;
+  background-color: #ece0e0;
+  margin: 90px auto 0px;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+#controls,
+#stats {
+  border: 1px solid #0a0a23;
+  padding: 20px;
+  color: #0a0a23;
+}
+#stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  cursor: pointer;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #c70d0d;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32;
+  border-radius: 5px;
+  padding: 5px;
+  justify-content: space-between;
+  margin-left: 90px;
+  text-align: center;
+  font-family: "Oxanium", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  word-spacing: 1px;
+  box-shadow: 0px 4px 12px rgba(79, 78, 78, 0.4);
+}
+button:hover {
+  color: #ffffff;
+  background-color: #0a0a23;
+  transition: all 0.5s ease-in-out;
+}
+button:focus {
+  color: #ffffff;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0px 4px 12px rgba(47, 46, 46, 0.4);
+}
